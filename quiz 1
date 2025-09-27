@@ -1,0 +1,17 @@
+# Ask user for their salary and years of service
+salary = float(input("Enter your salary: "))
+years = int(input("Enter your years of service: "))
+
+# Determine bonus percentage based on years of service
+if years > 10:
+    bonus_rate = 0.12
+elif years >= 6:
+    bonus_rate = 0.10
+else:
+    bonus_rate = 0.08
+
+# Calculate net bonus amount
+bonus_amount = salary * bonus_rate
+
+# Print the result
+print("Your net bonus amount is:", bonus_amount)
