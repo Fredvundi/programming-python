@@ -1,0 +1,12 @@
+# Heights of the three students
+john = 170
+alice = 172
+bob = 150
+
+# Compare to find the tallest
+if john > alice and john > bob:
+    print("John is the tallest")
+elif alice > john and alice > bob:
+    print("Alice is the tallest")
+else:
+    print("Bob is the tallest")
